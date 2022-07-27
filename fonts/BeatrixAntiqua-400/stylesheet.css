@@ -1,0 +1,12 @@
+@font-face {
+   font-family: 'Beatrix Antiqua';
+   src: url('../../fonts/BeatrixAntiqua-400/BeatrixAntiqua-Bold.eot');
+   src: url('../../fonts/BeatrixAntiqua-400/BeatrixAntiqua-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/BeatrixAntiqua-400/BeatrixAntiqua-Bold.woff2') format('woff2'),
+       url('../../fonts/BeatrixAntiqua-400/BeatrixAntiqua-Bold.woff') format('woff'),
+       url('../../fonts/BeatrixAntiqua-400/BeatrixAntiqua-Bold.ttf') format('truetype'),
+       url('../../fonts/BeatrixAntiqua-400/BeatrixAntiqua-Bold.svg#BeatrixAntiqua-Bold') format('svg');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}

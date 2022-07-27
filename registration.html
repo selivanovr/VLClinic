@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="format-detection" content="telephone=no">
+   <title>Choose-expert</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <section class="registration quiz" id="registration">
+      <a href="index.html" class="choose-expert__navigationbutton navigationbutton header__navigationbutton--bottom">
+         <span class="arrow"></span>
+      </a>
+      <div class="container">
+         <div class="registration__body">
+            <a onclick="javascript:history.back();return false;"
+               class="registration__link choose-expert__link back-link">НАЗАД</a>
+            <h2 class="registration__title section-title">Выберите удобное для вас время записи на консультацию или
+               прием</h2>
+            <div class="registration__content">
+               <div class="registration__column expert-column">
+                  <div class="expert-column__nav">
+                     <a href="thanks.html" class="expert-column__save">Сохранить</a>
+                     <a href="№!" class="expert-column__disable">Отменить</a>
+                  </div>
+                  <div class="expert-column__item slider-experts__item " data-expertchoose="exp1">
+                     <a href="thanks.html" class="slider-experts__foto">
+                        <img src="img/main/experts/expert1-1.png" alt="expert1">
+                     </a>
+                     <div class="slider-experts__name">
+                        <p>Власова</p> Елена Евгеньевна
+                     </div>
+                     <p class="slider-experts__vocation">Врач - косметолог</p>
+                  </div>
+                  <div class="expert-column__item slider-experts__item " data-expertchoose="exp2">
+                     <a href="thanks.html" class="slider-experts__foto">
+                        <img src="img/main/experts/expert2-2.png" alt="expert2">
+                     </a>
+                     <div class="slider-experts__name">
+                        <p>Тарасова</p> Ольга Максимовна
+                     </div>
+                     <p class="slider-experts__vocation">Врач - косметолог</p>
+                  </div>
+                  <div class="expert-column__item slider-experts__item " data-expertchoose="exp3">
+                     <a href="thanks.html" class="slider-experts__foto">
+                        <img src="img/main/experts/expert3-3.png" alt="expert3">
+                     </a>
+                     <div class="slider-experts__name">
+                        <p>Петрова</p> София Владимировна
+                     </div>
+                     <p class="slider-experts__vocation">Врач - косметолог</p>
+                  </div>
+                  <div class="expert-column__chanche button-consultation">
+                     <a href="#!">ДРУГОЙ СПЕЦИАЛИСТ</a>
+                  </div>
+               </div>
+               <div class="registration__regblock regblock">
+                  <p class="regblock__tip">*Календарь интегрирован с внешней системой “Архимед”</p>
+                  <div class="regblock__calendar calendar">
+                     <div class="calendar__day" id="day-one">
+                        <button class="calendar__item calendar__item--day ">пн 7</button>
+                        <button class="calendar__item calendar__item--hour busy">10:00</button>
+                        <button class="calendar__item calendar__item--hour ">10:30</button>
+                        <button class="calendar__item calendar__item--hour busy">11:00</button>
+                        <button class="calendar__item calendar__item--hour ">11:30</button>
+                        <button class="calendar__item calendar__item--hour busy">12:00</button>
+                        <button class="calendar__item calendar__item--hour ">12:30</button>
+                        <button class="calendar__item calendar__item--hour ">13:00</button>
+                        <button class="calendar__item calendar__item--hour ">13:30</button>
+                        <button class="calendar__item calendar__item--hour">14:00</button>
+                        <button class="calendar__item calendar__item--hour ">14:30</button>
+                        <button class="calendar__item calendar__item--hour ">15:00</button>
+                        <button class="calendar__item calendar__item--hour ">15:30</button>
+                        <button class="calendar__item calendar__item--hour ">16:00</button>
+                     </div>
+                     <div class="calendar__day" id="day-two">
+                        <button class="calendar__item calendar__item--day ">вт 8</button>
+                        <button class="calendar__item calendar__item--hour busy">10:00</button>
+                        <button class="calendar__item calendar__item--hour ">10:30</button>
+                        <button class="calendar__item calendar__item--hour busy">11:00</button>
+                        <button class="calendar__item calendar__item--hour ">11:30</button>
+                        <button class="calendar__item calendar__item--hour busy">12:00</button>
+                        <button class="calendar__item calendar__item--hour ">12:30</button>
+                        <button class="calendar__item calendar__item--hour ">13:00</button>
+                        <button class="calendar__item calendar__item--hour ">13:30</button>
+                        <button class="calendar__item calendar__item--hour">14:00</button>
+                        <button class="calendar__item calendar__item--hour ">14:30</button>
+                        <button class="calendar__item calendar__item--hour ">15:00</button>
+                        <button class="calendar__item calendar__item--hour ">15:30</button>
+                        <button class="calendar__item calendar__item--hour ">16:00</button>
+                     </div>
+                     <div class="calendar__day" id="day-tree">
+                        <button class="calendar__item calendar__item--day ">ср 9</button>
+                        <button class="calendar__item calendar__item--hour busy">10:00</button>
+                        <button class="calendar__item calendar__item--hour ">10:30</button>
+                        <button class="calendar__item calendar__item--hour busy">11:00</button>
+                        <button class="calendar__item calendar__item--hour ">11:30</button>
+                        <button class="calendar__item calendar__item--hour busy">12:00</button>
+                        <button class="calendar__item calendar__item--hour ">12:30</button>
+                        <button class="calendar__item calendar__item--hour ">13:00</button>
+                        <button class="calendar__item calendar__item--hour ">13:30</button>
+                        <button class="calendar__item calendar__item--hour">14:00</button>
+                        <button class="calendar__item calendar__item--hour ">14:30</button>
+                        <button class="calendar__item calendar__item--hour ">15:00</button>
+                        <button class="calendar__item calendar__item--hour ">15:30</button>
+                        <button class="calendar__item calendar__item--hour ">16:00</button>
+                     </div>
+                     <div class="calendar__day" id="day-four">
+                        <button class="calendar__item calendar__item--day ">чт 10</button>
+                        <button class="calendar__item calendar__item--hour busy">10:00</button>
+                        <button class="calendar__item calendar__item--hour ">10:30</button>
+                        <button class="calendar__item calendar__item--hour">11:00</button>
+                        <button class="calendar__item calendar__item--hour ">11:30</button>
+                        <button class="calendar__item calendar__item--hour busy">12:00</button>
+                        <button class="calendar__item calendar__item--hour ">12:30</button>
+                        <button class="calendar__item calendar__item--hour ">13:00</button>
+                        <button class="calendar__item calendar__item--hour ">13:30</button>
+                        <button class="calendar__item calendar__item--hour">14:00</button>
+                        <button class="calendar__item calendar__item--hour ">14:30</button>
+                        <button class="calendar__item calendar__item--hour ">15:00</button>
+                        <button class="calendar__item calendar__item--hour ">15:30</button>
+                        <button class="calendar__item calendar__item--hour ">16:00</button>
+                     </div>
+                     <div class="calendar__day" id="day-five">
+                        <button class="calendar__item calendar__item--day ">пт 11</button>
+                        <button class="calendar__item calendar__item--hour busy">10:00</button>
+                        <button class="calendar__item calendar__item--hour busy">10:30</button>
+                        <button class="calendar__item calendar__item--hour busy">11:00</button>
+                        <button class="calendar__item calendar__item--hour busy">11:30</button>
+                        <button class="calendar__item calendar__item--hour busy">12:00</button>
+                        <button class="calendar__item calendar__item--hour ">12:30</button>
+                        <button class="calendar__item calendar__item--hour ">13:00</button>
+                        <button class="calendar__item calendar__item--hour ">13:30</button>
+                        <button class="calendar__item calendar__item--hour">14:00</button>
+                        <button class="calendar__item calendar__item--hour ">14:30</button>
+                        <button class="calendar__item calendar__item--hour ">15:00</button>
+                        <button class="calendar__item calendar__item--hour busy">15:30</button>
+                        <button class="calendar__item calendar__item--hour ">16:00</button>
+                     </div>
+                     <div class="calendar__day" id="day-six">
+                        <button class="calendar__item calendar__item--day ">сб 12</button>
+                        <button class="calendar__item calendar__item--hour busy">10:00</button>
+                        <button class="calendar__item calendar__item--hour ">10:30</button>
+                        <button class="calendar__item calendar__item--hour busy">11:00</button>
+                        <button class="calendar__item calendar__item--hour ">11:30</button>
+                        <button class="calendar__item calendar__item--hour busy">12:00</button>
+                        <button class="calendar__item calendar__item--hour ">12:30</button>
+                        <button class="calendar__item calendar__item--hour ">13:00</button>
+                        <button class="calendar__item calendar__item--hour ">13:30</button>
+                        <button class="calendar__item calendar__item--hour">14:00</button>
+                        <button class="calendar__item calendar__item--hour ">14:30</button>
+                        <button class="calendar__item calendar__item--hour ">15:00</button>
+                        <button class="calendar__item calendar__item--hour ">15:30</button>
+                        <button class="calendar__item calendar__item--hour ">16:00</button>
+                     </div>
+                     <div class="calendar__day" id="day-seven">
+                        <button class="calendar__item calendar__item--day ">вс 13</button>
+                        <button class="calendar__item calendar__item--hour busy">10:00</button>
+                        <button class="calendar__item calendar__item--hour ">10:30</button>
+                        <button class="calendar__item calendar__item--hour busy">11:00</button>
+                        <button class="calendar__item calendar__item--hour ">11:30</button>
+                        <button class="calendar__item calendar__item--hour busy">12:00</button>
+                        <button class="calendar__item calendar__item--hour ">12:30</button>
+                        <button class="calendar__item calendar__item--hour ">13:00</button>
+                        <button class="calendar__item calendar__item--hour ">13:30</button>
+                        <button class="calendar__item calendar__item--hour">14:00</button>
+                        <button class="calendar__item calendar__item--hour ">14:30</button>
+                        <button class="calendar__item calendar__item--hour ">15:00</button>
+                        <button class="calendar__item calendar__item--hour ">15:30</button>
+                        <button class="calendar__item calendar__item--hour ">16:00</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup registration__popup" id="experts-select">
+         <div class="popup__body">
+            <div class="popup__content pop-content">
+               <a href="#" class="popup__closebtn">+</a>
+               <div class="pop-content__item" data-expertchoose="exp1">
+                  <a href="#!" class="pop-content__expert">
+                     <img src="img/main/experts/expert1-1.png" alt="expert1">
+                  </a>
+                  <div class="slider-experts__name pop-content__expert-name">
+                     <p>Власова</p> Елена Евгеньевна
+                  </div>
+               </div>
+               <div class="pop-content__item" data-expertchoose="exp2">
+                  <a href="#!" class="pop-content__expert">
+                     <img src="img/main/experts/expert2-2.png" alt="expert2">
+                  </a>
+                  <div class="slider-experts__name pop-content__expert-name">
+                     <p>Тарасова</p> Ольга Максимовна
+                  </div>
+               </div>
+               <div class="pop-content__item" data-expertchoose="exp3">
+                  <a href="#!" class="pop-content__expert">
+                     <img src="img/main/experts/expert3-3.png" alt="expert3">
+                  </a>
+                  <div class="slider-experts__name pop-content__expert-name">
+                     <p>Петрова</p> София Владимировна
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   
+   <script src="/js/registration.js"></script>
+   <script src="/js/tab.js"></script>
+
+</body>
+
+
+</html>

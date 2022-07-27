@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="format-detection" content="telephone=no">
+   <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /> -->
+   <link rel="stylesheet" href="css/swiper-min.css"> 
+   <link rel="stylesheet" href="css/style.css"> 
+   <title>VLClinic</title>
+</head>
+
+<body>
+   <header class="header" id="header">
+      <div class="decor__foliage anim-item">
+         <img src="/img/foliage.png" alt="">
+      </div>
+      <div class="header__bg ibg header__tab-item " data-item="1">
+         <img src="/img/header/footer-bg-1.png" alt="">
+      </div>
+      <div class="header__bg ibg header__tab-item active" data-item="2">
+         <img src="/img/header/footer-bg-2.png" alt="">
+      </div>
+      <div class="header__bg ibg header__tab-item tab__item" data-item="3">
+         <img src="/img/header/vrach-kosmetolog.jpg" alt="">
+      </div>
+      <div class="container">
+         <div class="decor__sheet decor__sheet--big">
+            <img src="/img/sheet.png" alt="">
+         </div>
+         <!-- <div class="decor__sheet decor__sheet--small">
+            <img src="/img/sheet.png" alt="">
+         </div> -->
+         <div class="header__body">
+            <!-- <a href="#!" class="header__navigationbutton navigationbutton header__navigationbutton--left">
+               <span class="arrow"></span>
+            </a>
+            <a href="#!" class="header__navigationbutton navigationbutton header__navigationbutton--right">
+               <span class="arrow"></span>
+            </a> -->
+            <a href="#services-title" class="header__navigationbutton navigationbutton header__navigationbutton--bottom nav-link">
+               <span class="arrow"></span>
+            </a>
+            
+            <div class="header__logo logo anim-item">
+               <a href="#"><img src="/img/logo.png" alt="VLClinic"></a>
+            </div>
+            <div class="header__burger">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+            <nav class="header__menu">
+               <ul class="header__list menu">
+                  <li class="menu__item active"><a href="index.html">Главная</a></li>
+                  <li class="menu__item"><a href="services.html#mainservice">Услуги</a></li>
+                  <li class="menu__item"><a href="news.html#news">Новости</a></li>
+                  <li class="menu__item "><a class="nav-link" href="#footer">Контакты</a></li>
+                  <li class="menu__item"><a class="nav-link" href="#recommendations">Интернет магазин</a></li>
+               </ul>
+            </nav>
+            <div class="header__content">
+               <div class="header__contacts">
+                  <a href="tel:83012378047" class="header__phone phone">
+                     <img src="/img/icons/telephone-border.svg" alt="">
+                     <p>8 (3012) 37 80 47</p>
+                  </a>
+                  <a href="#!" class="header__phonelink">
+                     <img src="/img/header/tel-white-full.svg" alt="">
+                  </a>
+                  <a href="#!" class="header__navpoint">
+                     <img src="/img/header/nav-full.svg" alt="">
+                  </a>
+               </div>
+               <h1 class="header__title">VL-CLINIC</h1>
+               <h2 class="header__subtitle">ЦЕНТР КОСМЕТОЛОГИИ</h2>
+               <div class="header__text">
+                  <p>
+                     Эстетическая косметология лица и тела
+                     с использованием оборудования
+                     <a class="nav-link" href="#beauty-content">экспертного класса</a>
+                  </p>
+               </div>
+               <div class="header__button button-consultation">
+                  <a href="choose-expert.html">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</a>
+               </div>
+               <div class="header__tabs tabs-header">
+                  <div class="tabs-header__numbers"><span id="currentnumber"></span> <span>/</span> <span
+                        id="totalnumbers"></span></div>
+                  <div class="tabs-header__statusline">
+                     <span class="tabs-header__statusline-line"></span>
+                  </div>
+                  <div class="tabs-header__arrows">
+                     <div class="tabs-header__arrows--left arrow"></div>
+                     <div class="tabs-header__arrows--right arrow"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main class="main">
+      <section class="services">
+         <div class="container">
+            <a href="#vl"
+               class="nav-link services__navigationbutton header__navigationbutton navigationbutton header__navigationbutton--bottom">
+               <span class="arrow"></span>
+            </a>
+            <div class="services__smalldecor decor__sheet decor__sheet--small">
+               <img src="/img/sheet.png" alt="">
+            </div>
+            <div class="services__decor decorservices">
+               <img src="img/main/services/decorservices.png" alt="Декор">
+            </div>
+            <div class="services__body">
+               <!--  <div class="decor__sheet decor__sheet--small">
+                  <img src="/img/sheet.png" alt="">
+               </div> -->
+               <div class="services__choice choiceservice anim-item repeat-anim">
+                  <div id="services-title" class="choiceservice__title section-title active">выберите услугу</div>
+                  <p class="choiceservice__subtitle">Нажмите на нужную Вам категорию, и выберите услугу что бы перейти к
+                     записи</p>
+                  <nav class="choiceservice__services">
+                     <ul class="choiceservice__list">
+                        <li class="choiceservice__listitem tab__button" id="1">КОНСУЛЬТАЦИЯ</li>
+                        <li class="choiceservice__listitem tab__button" id="2">АППАРАТНАЯ КОСМЕТОЛОГИЯ</li>
+                        <li class="choiceservice__listitem tab__button" id="3">ПРОЦЕДУРЫ</li>
+                        <li class="choiceservice__listitem tab__button" id="4">контурное моделлирование</li>
+                        <li class="choiceservice__listitem tab__button" id="5">КОРРЕКЦИЯ МИМИЧЕСКИХ МОРЩИН</li>
+                        <li class="choiceservice__listitem tab__button" id="6">МАССАЖИ</li>
+                        <li class="choiceservice__listitem tab__button" id="7">КОСМЕТОЛОГИЯ НА АППАРАТЕ M22</li>
+                        <li class="choiceservice__listitem tab__button" id="8">АППАРАТНАЯ КОСМЕТОЛОГИЯ НА ЭРБИЕВОМ
+                           АППАРАТЕ</li>
+                        <li class="choiceservice__listitem tab__button anim-item" id="9">МИКРОУГОЛЬЧАТЫЙ RF - ЛИФТИНГ</li>
+                        <li class="choiceservice__listitem tab__button" id="10">SMAS - ЛИФТИНГ</li>
+                        <li class="choiceservice__listitem tab__button" id="11">ЖЕНСКАЯ ЛАЗЕРНАЯ ЭПИЛЯЦИЯ</li>
+                        <li class="choiceservice__listitem tab__button" id="12">МУЖСКАЯ ЛАЗЕРНАЯ ЭПИЛЯЦИЯ</li>
+                     </ul>
+                  </nav>
+               </div> 
+               <div class="services__price">
+                  <div class="services__pricebody tab__item" data-tab="1">
+                     <div class="services__pricepoint">
+                        <img src="/img/main/services/point.png" alt="point">
+                     </div>
+                     <ul class="services__pricelist">
+                        <li class="services__priceitem"><a href="#!"><span>шея</span><span>8 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте</span><span>10 500 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>лицо</span><span>21 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>шея + лицо</span><span>25 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте + шея + лицо</span><span>36 000
+                                 руб.</span></a></li>
+                     </ul>
+                  </div>
+                  <div class="services__pricebody tab__item" data-tab="2">
+                     <div class="services__pricepoint">
+                        <img src="/img/main/services/point.png" alt="point">
+                     </div>
+                     <ul class="services__pricelist">
+                        <li class="services__priceitem"><a href="#!"><span>шея2</span><span>10 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте</span><span>12 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>лицо</span><span>20 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>шея + лицо</span><span>24 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте + шея + лицо</span><span>35 000
+                                 руб.</span></a></li>
+                     </ul>
+                  </div>
+                  <div class="services__pricebody tab__item" data-tab="3">
+                     <div class="services__pricepoint">
+                        <img src="/img/main/services/point.png" alt="point">
+                     </div>
+                     <ul class="services__pricelist">
+                        <li class="services__priceitem"><a href="#!"><span>шея3</span><span>10 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте</span><span>12 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>лицо</span><span>20 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>шея + лицо</span><span>24 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте + шея + лицо</span><span>35 000
+                                 руб.</span></a></li>
+                     </ul>
+                  </div>
+                  <div class="services__pricebody tab__item" data-tab="4">
+                     <div class="services__pricepoint">
+                        <img src="/img/main/services/point.png" alt="point">
+                     </div>
+                     <ul class="services__pricelist">
+                        <li class="services__priceitem"><a href="#!"><span>шея4</span><span>10 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте</span><span>12 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>лицо</span><span>20 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>шея + лицо</span><span>24 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте + шея + лицо</span><span>35 000
+                                 руб.</span></a></li>
+                     </ul>
+                  </div>
+                  <div class="services__pricebody tab__item" data-tab="5">
+                     <div class="services__pricepoint">
+                        <img src="/img/main/services/point.png" alt="point">
+                     </div>
+                     <ul class="services__pricelist">
+                        <li class="services__priceitem"><a href="#!"><span>шея5</span><span>10 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте</span><span>12 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>лицо</span><span>20 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>шея + лицо</span><span>24 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте + шея + лицо</span><span>35 000
+                                 руб.</span></a></li>
+                     </ul>
+                  </div>
+                  <div class="services__pricebody tab__item" data-tab="6">
+                     <div class="services__pricepoint">
+                        <img src="/img/main/services/point.png" alt="point">
+                     </div>
+                     <ul class="services__pricelist">
+                        <li class="services__priceitem"><a href="#!"><span>шея6</span><span>10 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте</span><span>12 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>лицо</span><span>20 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>шея + лицо</span><span>24 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте + шея + лицо</span><span>35 000
+                                 руб.</span></a></li>
+                     </ul>
+                  </div>
+                  <div class="services__pricebody tab__item" data-tab="7">
+                     <div class="services__pricepoint">
+                        <img src="/img/main/services/point.png" alt="point">
+                     </div>
+                     <ul class="services__pricelist">
+                        <li class="services__priceitem"><a href="#!"><span>шея6</span><span>10 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте</span><span>12 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>лицо</span><span>20 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>шея + лицо</span><span>24 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте + шея + лицо</span><span>35 000
+                                 руб.</span></a></li>
+                     </ul>
+                  </div>
+                  <div class="services__pricebody tab__item" data-tab="8">
+                     <div class="services__pricepoint">
+                        <img src="/img/main/services/point.png" alt="point">
+                     </div>
+                     <ul class="services__pricelist">
+                        <li class="services__priceitem"><a href="#!"><span>шея</span><span>10 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте</span><span>12 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>лицо</span><span>20 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>шея + лицо</span><span>24 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте + шея + лицо</span><span>35 000
+                                 руб.</span></a></li>
+                     </ul>
+                  </div>
+                  <div class="services__pricebody tab__item active" data-tab="9">
+                     <div class="services__pricepoint">
+                        <img src="/img/main/services/point.png" alt="point">
+                     </div>
+                     <ul class="services__pricelist">
+                        <li class="services__priceitem"><a href="service_one.html#neck"><span>шея</span><span>10 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="service_one.html#decollete"><span>декольте</span><span>12 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="service_one.html#face" ><span>лицо</span><span>20 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="service_one.html#neckface"><span>шея + лицо</span><span>24 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="service_one.html#decolleteneckface"><span>декольте + шея + лицо</span><span>35 000
+                                 руб.</span></a></li>
+                     </ul>
+                  </div>
+                  <div class="services__pricebody tab__item" data-tab="10">
+                     <div class="services__pricepoint">
+                        <img src="/img/main/services/point.png" alt="point">
+                     </div>
+                     <ul class="services__pricelist">
+                        <li class="services__priceitem"><a href="#!"><span>шея6</span><span>10 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте</span><span>12 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>лицо</span><span>20 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>шея + лицо</span><span>24 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте + шея + лицо</span><span>35 000
+                                 руб.</span></a></li>
+                     </ul>
+                  </div>
+                  <div class="services__pricebody tab__item" data-tab="11">
+                     <div class="services__pricepoint">
+                        <img src="/img/main/services/point.png" alt="point">
+                     </div>
+                     <ul class="services__pricelist">
+                        <li class="services__priceitem"><a href="#!"><span>шея6</span><span>10 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте</span><span>12 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>лицо</span><span>20 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>шея + лицо</span><span>24 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте + шея + лицо</span><span>35 000
+                                 руб.</span></a></li>
+                     </ul>
+                  </div>
+                  <div class="services__pricebody tab__item" data-tab="12">
+                     <div class="services__pricepoint">
+                        <img src="/img/main/services/point.png" alt="point">
+                     </div>
+                     <ul class="services__pricelist">
+                        <li class="services__priceitem"><a href="#!"><span>шея6</span><span>10 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте</span><span>12 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="service_one.html"><span>лицо</span><span>20 000 руб.</span></a></li>
+                        <li class="services__priceitem"><a href="#!"><span>шея + лицо</span><span>24 000 руб.</span></a>
+                        </li>
+                        <li class="services__priceitem"><a href="#!"><span>декольте + шея + лицо</span><span>35 000
+                                 руб.</span></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="vl" id="vl">
+         <div class="container">
+            <div class="vl__body">
+               <div class="vl__bodydecor">
+                  <img src="img/main/vl/vldecor.svg" alt="">
+               </div>
+               <div class="vl__title anim-item repeat-anim">
+                  <h3>VL —КЛИНИКА МОЛОДОСТИ И КРАСОТЫ</h3>
+               </div>
+               <div class="vl__content vl-content">
+                  <div class="vl-content__decorline"></div>
+                  <div class="vl-content__text anim-item repeat-anim">
+                     <p> VL Clinic– это ведущие клинические центры эстетической медицины в Москве, которые предлагают
+                        своим пациентам премиальный сервис и лучшие anti-age решения по совершенствованию внешности и
+                        омоложению, диагностику здоровья на основе принципов превентивной медицины для поддержания
+                        ресурсов организма и повышения качество жизни наших пациентов.</p>
+                  </div>
+                  <div class="vl-content__spoiler">
+                     <div class="vl-content__link"><span></span>
+                        <p>Показать еще</p>
+                     </div>
+                     <div class="vl-content__info">
+                        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam omnis esse veniam vitae
+                           temporibus iure recusandae hic quisquam, quasi amet, sequi ea nulla laboriosam dolorum?
+                           Adipisci asperiores perferendis iure autem nostrum consectetur, quibusdam impedit officia
+                           suscipit, rerum vitae corrupti nesciunt necessitatibus ipsa obcaecati ea facere. Provident
+                           officia impedit aspernatur nemo saepe libero. Lorem ipsum dolor sit amet consectetur
+                           adipisicing elit. Ipsam a optio nemo. </span>
+                     </div>
+                  </div>
+               </div>
+               <div class="vl__decor decorservices">
+                  <img src="img/main/services/decorservices.png" alt="Декор">
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="beauty">
+         <div class="beauty__decor beauty__decor--device">
+            <img src="/img/main/beauty/bg_device.png" alt="device">
+         </div>
+         <div class="beauty__decor beauty__decor--left">
+            <img src="/img/main/beauty/art_left.png" alt="decorleft">
+         </div>
+         <div class="beauty__decor beauty__decor--right">
+            <img src="/img/main/beauty/art_right.png" alt="decorright">
+         </div>
+         <div class="beauty__slider slider">
+            <div class="slider__body">
+               <div class="slider__closebtn">X</div>
+               <div class="slider__item " data-gallery="1">
+                  <div class="slider__foto">
+                     <img src="/img/main/beauty/search.svg" alt="open" data-gallery="1">
+                     <img src="/img/main/beauty/foto1.svg" alt="foto" data-gallery="1">
+                  </div>
+               </div>
+               <div class="slider__item" >
+                  <div class="slider__foto">
+                     <img src="/img/main/beauty/search.svg" alt="open" data-gallery="2">
+                     <img src="/img/main/beauty/foto2.svg" alt="foto" data-gallery="2">
+                  </div>
+               </div>
+               <div class="slider__item" >
+                  <div class="slider__foto">
+                     <img src="/img/main/beauty/search.svg" alt="open" data-gallery="3">
+                     <img src="/img/main/beauty/foto3.svg" alt="foto" data-gallery="3">
+                  </div>
+               </div>
+               <div class="slider__item" >
+                  <div class="slider__foto">
+                     <img src="/img/main/beauty/search.svg" alt="open" data-gallery="4">
+                     <img src="/img/main/beauty/foto4.svg" alt="foto" data-gallery="4">
+                  </div>
+               </div>
+               <div class="slider__item" >
+                  <div class="slider__foto">
+                     <img src="/img/main/beauty/search.svg" alt="open" data-gallery="5">
+                     <img src="/img/main/beauty/foto5.svg" alt="foto" data-gallery="5">
+                  </div>
+               </div>
+               <div class="slider__item" >
+                  <div class="slider__foto">
+                     <img src="/img/main/beauty/search.svg" alt="open" data-gallery="6">
+                     <img src="/img/main/beauty/foto1.svg" alt="foto" data-gallery="6">
+                  </div>
+               </div>
+               <div class="slider__item" >
+                  <div class="slider__foto">
+                     <img src="/img/main/beauty/search.svg" alt="open" data-gallery="7">
+                     <img src="/img/main/beauty/foto2.svg" alt="foto" data-gallery="7">
+                  </div>
+               </div>
+               <div class="slider__item" >
+                  <div class="slider__foto">
+                     <img src="/img/main/beauty/search.svg" alt="open" data-gallery="8">
+                     <img src="/img/main/beauty/foto3.svg" alt="foto" data-gallery="8">
+                  </div>
+               </div>
+               <div class="slider__item" >
+                  <div class="slider__foto">
+                     <img src="/img/main/beauty/search.svg" alt="open" data-gallery="9">
+                     <img src="/img/main/beauty/foto4.svg" alt="foto" data-gallery="9">
+                  </div>
+               </div>
+               <div class="slider__item" >
+                  <div class="slider__foto">
+                     <img src="/img/main/beauty/search.svg" alt="open" data-gallery="10">
+                     <img src="/img/main/beauty/foto1.svg" alt="foto" data-gallery="10">
+                  </div>
+               </div>
+            </div>
+            <div class="slider__nav">
+               <div class="slider__meter">
+                  <span id="currentfoto"></span>
+                  <span>/</span>
+                  <span id="totalfotos"></span>
+               </div>
+               <div class="slider__statusline">
+                  <div class="slider__statuslineitem"></div>
+               </div>
+               <div class="slider__button button-consultation anim-item">
+                  <a href="choose-expert.html">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</a>
+               </div>
+               <div class="slider__arrows">
+                  <div class="slider__arrows--left arrow"></div>
+                  <div class="slider__arrows--right arrow"></div>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="beauty__title section-title anim-item">
+               <p>МОЛОДОСТЬ И КРАСОТА</p> БЕЗ ХИРУРГИЧЕСКОГО ВМЕШАТЕЛЬСТВА
+            </div>
+            <div class="beauty__content beauty-content" id="beauty-content">
+               <div class="beauty__videoblock videoblock anim-item repeat-anim">
+                  <div class="videoblock__videopopap">
+                     <div class="videoblock__closebtn">X</div>
+                     <!-- <iframe class="videoblock__video" id="player" src="https://www.youtube.com/embed/AXYeWgS3UGU?enablejsapi=1"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                  </div>
+                  <div class="videoblock__link">
+                     <img src="/img/main/beauty/video.png" alt="videolink">
+                  </div>
+                  <span class="videoblock__label">Смотреть видео</span>
+               </div>
+               <div class="beauty-content__column">
+                  <div class="beauty-content__block">
+                     <img src="/img/main/beauty/point.png" alt="">
+                     <h3>Используем новейшее оборудование из США и Германии</h3>
+                     <p> В нашей клинике применятся только самое современное оборудование от лидеров отрасли
+                        производства косметологической техники!</p>
+                     <p>Для процедуры эпиляции, омоложения и отбеливания кожи, лечения акне мы используем новейшие
+                        двухволновые лазеры MeDioStar</p>
+                  </div>
+                  <div class="beauty-content__block">
+                     <img src="/img/main/beauty/point.png" alt="">
+                     <h3>Оказываем весь спектр косметологических услуг</h3>
+                     <p>Такие как аппаратная косметология на новейшем диодном аппарате MeDioStar, MeDioStar, на аппарате
+                        MeDioStar(динамическая мышечная активация)</p>
+                  </div>
+               </div>
+               <div class="beauty-content__slider beautycontent-slider">
+                  <div class="beautycontent-slider__body swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="beautycontent-slider__item">
+                           <img src="/img/main/beauty/foto5.svg" alt="slide1">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="beautycontent-slider__item">
+                           <img src="/img/main/beauty/foto1.png" alt="slide1">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="beautycontent-slider__item">
+                           <img src="/img/main/beauty/foto3.svg" alt="slide1">
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+               <div class="beauty-content__arrows">
+                  <div class="beauty-content__arrowleft"><img src="/img/main/beauty/arrow_left.png"
+                        alt="arrowleft"></div>
+                  <div class="beauty-content__arrowright"><img src="/img/main/beauty/arrow_right.png"
+                        alt="arrowleft"></div>
+               </div>
+            </div>
+         </div>
+         <div class="beauty__gallery gallery">
+            <div class="gallery__closebtn">x</div>
+            <div class="gallery__body gallery__slider">
+               <div class="swiper-wrapper">
+                  <div class="gallery__item swiper-slide">
+                     <img data-gallery="1" src="img/main/beauty/foto1.svg" alt="foto1">
+                  </div>
+                  <div class="gallery__item swiper-slide">
+                     <img data-gallery="2" src="img/main/beauty/foto2.svg" alt="foto2">
+                  </div>
+                  <div class="gallery__item swiper-slide">
+                     <img data-gallery="3" src="img/main/beauty/foto3.svg" alt="foto3">
+                  </div>
+                  <div class="gallery__item swiper-slide">
+                     <img data-gallery="4" src="img/main/beauty/foto4.svg" alt="foto4">
+                  </div>
+                  <div class="gallery__item swiper-slide">
+                     <img data-gallery="5" src="img/main/beauty/foto5.svg" alt="foto5">
+                  </div>
+                  <div class="gallery__item swiper-slide">
+                     <img data-gallery="6" src="img/main/beauty/foto1.svg" alt="foto6">
+                  </div>
+                  <div class="gallery__item swiper-slide">
+                     <img data-gallery="7" src="img/main/beauty/foto2.svg" alt="foto7">
+                  </div>
+                  <div class="gallery__item swiper-slide">
+                     <img data-gallery="8" src="img/main/beauty/foto3.svg" alt="foto8">
+                  </div>
+                  <div class="gallery__item swiper-slide">
+                     <img data-gallery="9" src="img/main/beauty/foto4.svg" alt="foto9">
+                  </div>
+                  <div class="gallery__item swiper-slide">
+                     <img data-gallery="10" src="img/main/beauty/foto5.svg" alt="foto10">
+                  </div>
+               </div>
+            </div>
+            <a href="#!" class="gallery__btn gallery__btn--prev navigationbutton">
+               <span class="arrow"></span>
+            </a>
+            <a href="#!" class="gallery__btn gallery__btn--next navigationbutton">
+               <span class="arrow"></span>
+            </a>
+         </div>
+      </section>
+      <section class="certificates anim-item repeat-anim" id="certificates">
+         <div class="decor__foliage certificates__decorfoliage certificates__decorfoliage--top">
+            <img src="/img/foliage.png" alt="decfol">
+         </div>
+         <div class="decor__foliage certificates__decorfoliage certificates__decorfoliage--bot">
+            <img src="/img/foliage.png" alt="decfol">
+         </div>
+         <div class="decor__sheet decor__sheet--big certificates__decorsheetbig">
+            <img src="/img/sheet.png" alt="decorsmall">
+         </div>
+         <div class="decor__sheet decor__sheet--small certificates__decorsheetsmall">
+            <img src="/img/sheet.png" alt="decorbig">
+         </div>
+         <a href="#certificates" class="nav-link beauty__navigationbutton navigationbutton header__navigationbutton--bottom">
+            <span class="arrow"></span>
+         </a>
+         <a href="#experts" class="nav-link certificates__navigationbutton navigationbutton header__navigationbutton--bottom">
+            <span class="arrow"></span>
+         </a>
+         <div class="container">
+            <div class="certificates__body">
+               <h2 class="certificates__title section-title">
+                  НАШИ СЕРТИФИКАТЫ
+               </h2>
+               <div class="certificates__slider">
+                  <div class="certificates__items swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="certificates__item">
+                           <img src="/img/main/certificates/sert1.png" alt="sert1">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="certificates__item">
+                           <img src="/img/main/certificates/sert2.png" alt="sert2">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="certificates__item">
+                           <img src="/img/main/certificates/sert3.png" alt="sert3">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="certificates__nav">
+                  <div class="certificates__nav--left arrow"></div>
+                  <div class="certificates__nav--right arrow"></div>
+               </div>
+               <a href="#!" class="certificates__allsert">Все сертификаты</a>
+            </div>
+         </div>
+      </section>
+      <section class="experts" id="experts">
+         <div class="decor__sheet decor__sheet--big experts__decorsheetbig">
+            <img src="/img/sheet.png" alt="decorsbig">
+         </div>
+         <img class="experts__bgdecor experts__bgdecor--left" src="img/main/experts/bg-decor1.svg" alt="decor">
+         <img class="experts__bgdecor experts__bgdecor--right" src="img/main/experts/bg-decor2.svg" alt="decor">
+         <div class="container">
+            <div class="experts__body ">
+               <h2 class="experts__title section-title">
+                  НАШИ СПЕЦИАЛИСТЫ
+               </h2>
+               <div class="experts__slider slider-experts">
+                  <div class="swiper-wrapper slider-experts__wrapper">
+                     <div class="swiper-slide slider-experts__slide">
+                        <div class="slider-experts__item ">
+                           <div class="slider-experts__foto">
+                              <img src="img/main/experts/expert1-1.png" alt="expert1">
+                           </div>
+                           <div class="slider-experts__name">
+                              <p>Власова</p> Елена Евгеньевна
+                           </div>
+                           <p class="slider-experts__vocation">Врач - косметолог</p>
+                        </div>
+                     </div>
+                     <div class="swiper-slide slider-experts__slide">
+                        <div class="slider-experts__item">
+                           <div class="slider-experts__foto">
+                              <img src="img/main/experts/expert2-2.png" alt="expert2">
+                           </div>
+                           <div class="slider-experts__name">
+                              <p>Власова</p> Елена Евгеньевна
+                           </div>
+                           <p class="slider-experts__vocation">Врач - косметолог</p>
+                        </div>
+                     </div>
+                     <div class="swiper-slide slider-experts__slide">
+                        <div class="slider-experts__item">
+                           <div class="slider-experts__foto">
+                              <img src="img/main/experts/expert3-3.png" alt="expert3">
+                           </div>
+                           <div class="slider-experts__name">
+                              <p>Власова</p> Елена Евгеньевна
+                           </div>
+                           <p class="slider-experts__vocation">Врач - косметолог</p>
+                        </div>
+                     </div>
+                     <div class="swiper-slide slider-experts__slide">
+                        <div class="slider-experts__item ">
+                           <div class="slider-experts__foto">
+                              <img src="img/main/experts/expert1-1.png" alt="expert1">
+                           </div>
+                           <div class="slider-experts__name">
+                              <p>Власова</p> Елена Евгеньевна
+                           </div>
+                           <p class="slider-experts__vocation">Врач - косметолог</p>
+                        </div>
+                     </div>
+                     <div class="swiper-slide slider-experts__slide">
+                        <div class="slider-experts__item">
+                           <div class="slider-experts__foto">
+                              <img src="img/main/experts/expert2-2.png" alt="expert2">
+                           </div>
+                           <div class="slider-experts__name">
+                              <p>Власова</p> Елена Евгеньевна
+                           </div>
+                           <p class="slider-experts__vocation">Врач - косметолог</p>
+                        </div>
+                     </div>
+                     <div class="swiper-slide slider-experts__slide">
+                        <div class="slider-experts__item">
+                           <div class="slider-experts__foto">
+                              <img src="img/main/experts/expert3-3.png" alt="expert3">
+                           </div>
+                           <div class="slider-experts__name">
+                              <p>Власова</p> Елена Евгеньевна
+                           </div>
+                           <p class="slider-experts__vocation">Врач - косметолог</p>
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+               <div class="slider-experts__nav">
+                  <div class="slider-experts__meter">
+                     <span id="swipernumber1">20</span>
+                     <span>/</span>
+                     <span id="swipertotalitems1">80</span>
+                  </div>
+                  <div class="slider-experts__statusline">
+                     <div class="slider-experts__statuslineitem"></div>
+                  </div>
+                  <div class="slider-experts__arrows">
+                     <div class="slider-experts__arrows--prev arrow"></div>
+                     <div class="slider-experts__arrows--next arrow"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="consultation">
+         <a href="#recommendations"
+            class="nav-link consultation__navigationbutton navigationbutton header__navigationbutton--bottom">
+            <span class="arrow"></span>
+         </a>
+         <div class="container">
+            <div class="consultation__body">
+               <div class="consultation__column">
+                  <div class="consultation__title choiceservice__title section-title anim-item"> <p>записаться</p><p>на консультацию</p>
+                  </div>
+                  <p class="consultation__subtitle">На первичной консультации Вы:</p>
+                  <ul class="consultation__list">
+                     <li class="consultation__listitem">Познакомитесь со специалистом лично и зададите ему все
+                        интересующие вопросы</li>
+                     <li class="consultation__listitem">Сделаете диагностику состояния лица и кожных покрово, в том
+                        числе и с при-менением аппаратного 3D - анализа</li>
+                     <li class="consultation__listitem">Узнаете какая из процедур подойдет в Вашем случае и составить
+                        план лечения</li>
+                     <li class="consultation__listitem">Подберете средства и получите рекомендации для домашнего ухода
+                     </li>
+                  </ul>
+                  <div class="consultation__button button-consultation">
+                     <a href="choose-expert.html">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</a>
+                  </div>
+                  <div class="consultation__phone ">
+                     <span> Или по телефону</span>
+                     <div class="consultation__number phone"><a href="tel:83012378047">8 (3012) 37 80 47</a></div>
+                  </div>
+               </div>
+               <div class="consultation__note note anim-item">
+                  <div class="note__body">
+                     <p class="note__text">Мы хотим, что бы выбранные процедуры действительно подходили именно вам!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="recommendations" id="recommendations">
+         <div class="decor__foliage recommendations__decorbotright">
+            <img src="/img/foliage.png" alt="decfol">
+         </div>
+         <div class="recommendations__decorbotleft">
+            <img src="img/main/services/decorservices.png" alt="decor">
+         </div>
+         <div class="recommendations__decorface">
+            <img src="img/main/recommendations/decor-left.svg" alt="facedecor">
+         </div>
+         <div class="recommendations__decorrose">
+            <img src="img/main/recommendations/decor-right.svg" alt="rosedecor">
+         </div>
+         <div class="container">
+            <div class="recommendations__body">
+               <div class="recommendations__title section-title">
+                  <p>СПЕЦИАЛИСТЫ РЕКОМЕНДУЮТ</p>
+               </div>
+               <div class="recommendations__slider slider-recommendations">
+                  <div class="swiper-wrapper slider-recommendations__body ">
+                     <!-- Slides -->
+                     <div class="swiper-slide">
+                        <div class="slider-recommendations__item ">
+                           <div class="slider-recommendations__slide ">
+                              <div class="slider-recommendations__foto"><img src="img/main/recommendations/itemfoto.png"
+                                    alt="slide1"></div>
+                              <div class="slider-recommendations__label">
+                                 <p>Holy Land Cosmetics B</p>
+                                 <p>First Anti-Age Gel Soap</p>
+                              </div>
+                              <div class="slider-recommendations__button button-consultation">
+                                 <a href="#!">ЗАКАЗАТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="slider-recommendations__item ">
+                           <div class="slider-recommendations__slide ">
+                              <div class="slider-recommendations__foto"><img src="img/main/recommendations/itemfoto.png"
+                                    alt="slide1"></div>
+                              <div class="slider-recommendations__label">
+                                 <p>Holy Land Cosmetics B</p>
+                                 <p>First Anti-Age Gel Soap</p>
+                              </div>
+                              <div class="slider-recommendations__button button-consultation">
+                                 <a href="#!">ЗАКАЗАТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="slider-recommendations__item ">
+                           <div class="slider-recommendations__slide ">
+                              <div class="slider-recommendations__foto"><img src="img/main/recommendations/itemfoto.png"
+                                    alt="slide1"></div>
+                              <div class="slider-recommendations__label">
+                                 <p>Holy Land Cosmetics B</p>
+                                 <p>First Anti-Age Gel Soap</p>
+                              </div>
+                              <div class="slider-recommendations__button button-consultation">
+                                 <a href="#!">ЗАКАЗАТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="slider-recommendations__item ">
+                           <div class="slider-recommendations__slide ">
+                              <div class="slider-recommendations__foto"><img src="img/main/recommendations/itemfoto.png"
+                                    alt="slide1"></div>
+                              <div class="slider-recommendations__label">
+                                 <p>Holy Land Cosmetics B</p>
+                                 <p>First Anti-Age Gel Soap</p>
+                              </div>
+                              <div class="slider-recommendations__button button-consultation">
+                                 <a href="#!">ЗАКАЗАТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="slider-recommendations__item ">
+                           <div class="slider-recommendations__slide ">
+                              <div class="slider-recommendations__foto"><img src="img/main/recommendations/itemfoto.png"
+                                    alt="slide1"></div>
+                              <div class="slider-recommendations__label">
+                                 <p>Holy Land Cosmetics B</p>
+                                 <p>First Anti-Age Gel Soap</p>
+                              </div>
+                              <div class="slider-recommendations__button button-consultation">
+                                 <a href="#!">ЗАКАЗАТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="slider-recommendations__item ">
+                           <div class="slider-recommendations__slide ">
+                              <div class="slider-recommendations__foto"><img src="img/main/recommendations/itemfoto.png"
+                                    alt="slide1"></div>
+                              <div class="slider-recommendations__label">
+                                 <p>Holy Land Cosmetics B</p>
+                                 <p>First Anti-Age Gel Soap</p>
+                              </div>
+                              <div class="slider-recommendations__button button-consultation">
+                                 <a href="#!">ЗАКАЗАТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="slider-recommendations__item ">
+                           <div class="slider-recommendations__slide ">
+                              <div class="slider-recommendations__foto"><img src="img/main/recommendations/itemfoto.png"
+                                    alt="slide1"></div>
+                              <div class="slider-recommendations__label">
+                                 <p>Holy Land Cosmetics B</p>
+                                 <p>First Anti-Age Gel Soap</p>
+                              </div>
+                              <div class="slider-recommendations__button button-consultation">
+                                 <a href="#!">ЗАКАЗАТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="slider-recommendations__item ">
+                           <div class="slider-recommendations__slide ">
+                              <div class="slider-recommendations__foto"><img src="img/main/recommendations/itemfoto.png"
+                                    alt="slide1"></div>
+                              <div class="slider-recommendations__label">
+                                 <p>Holy Land Cosmetics B</p>
+                                 <p>First Anti-Age Gel Soap</p>
+                              </div>
+                              <div class="slider-recommendations__button button-consultation">
+                                 <a href="#!">ЗАКАЗАТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slider-recommendations__nav">
+                     <div class="slider-recommendations__meter">
+                        <span class="slider-recommendations__current-slide" id="swipernumber">20</span>
+                        <span>/</span>
+                        <span class="slider-recommendations__total-slides" id="swipertotalitems">80</span>
+                     </div>
+                     <div class="slider-recommendations__statusline">
+                        <div class="slider-recommendations__statuslineitem"></div>
+                     </div>
+                     <div class="slider-recommendations__arrows">
+                        <div class="slider-recommendations__arrows--prev arrow"></div>
+                        <div class="slider-recommendations__arrows--next arrow"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="map">
+         <img class="map__decor" src="img/main/map/decor.png" alt="decor">
+         <div class="map__content">
+            <div class="container">
+               <div class="map__body">
+                  <div data-street="1" class="map__street map__street--one">
+                     <span>Ул. Бабушкина 166</span>
+                  </div>
+                  <div data-street="2" class="map__street map__street--two active">
+                     <span>Ул. Бабушкина 166</span>
+                  </div>
+                  <div data-street="3" class="map__street map__street--tree">
+                     <span>Ул. Бабушкина 166</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="map__maps">
+            <a class="map__map" data-map="1" target="_blank"
+               href="https://www.google.com/maps/d/embed?mid=1nnAZ8PpvEFzcekFUsRJR1wJvBi3JONA&hl=ru&ehbc=2E312F"><img
+                  src="/img/main/map/map-one.png" alt="map1"></a>
+            <a class="map__map active" data-map="2" target="_blank"
+               href="https://www.google.com/maps/d/embed?mid=1nnAZ8PpvEFzcekFUsRJR1wJvBi3JONA&hl=ru&ehbc=2E312F"><img
+                  src="/img/main/map/map-two.png" alt="map2"></a>
+            <a class="map__map" data-map="3" target="_blank"
+               href="https://www.google.com/maps/d/embed?mid=1nnAZ8PpvEFzcekFUsRJR1wJvBi3JONA&hl=ru&ehbc=2E312F"><img
+                  src="/img/main/map/map-tree.png" alt="map3"></a>
+         </div>
+      </section>
+   </main>
+   <footer class="footer" id="footer">
+      <img src="/img/footer/bg.png" alt="bg" class="footer__bg">
+      <div class="container">
+         <div class="decor__sheet decor__sheet--big footer__sheet--big">
+            <img src="/img/sheet.png" alt="">
+         </div>
+         <div class="decor__sheet decor__sheet--small footer__sheet--small">
+            <img src="/img/sheet.png" alt="">
+         </div>
+         <div class="footer__body">
+            <div class="footer__content">
+               <div class="footer__contacts">
+                  <div class="footer__logo logo">
+                     <a href="#"><img src="/img/logo.png" alt="VLClinic"></a>
+                  </div>
+                  <a href="tel:83012378047" class="footer__phone phone">
+                     <img src="/img/icons/telephone-border.svg" alt="">
+                     <p>8 (3012) 37 80 47</p>
+                  </a>
+                  <a href="tel:83012378047" class="footer__phone phone">
+                     <img src="/img/icons/telephone-border.svg" alt="">
+                     <p>8 (3012) 37 80 47</p>
+                  </a>
+                  <a class="footer__mail" href="mailto:vl_clinic@company.ru">vl_clinic@company.ru</a>
+                  <div class="footer__networks networks">
+                     <a class="networks__phone" href="#">
+                        <img src="/img/icons/telephone-painted.svg" alt="telephone">
+                     </a>
+                     <a class="networks__telegramm" href="#">
+                        <img src="/img/icons/telegram-painted.svg" alt="telegramm">
+                     </a>
+                     <a class="networks__vk" href="#">
+                        <img src="/img/icons/vk-painted.svg" alt="vk">
+                     </a>
+                  </div>
+                  <a href="" class="footer__politics">Политика конфиденциальности</a>
+               </div>
+               <div class="footer__navigation">
+                  <nav class="footer__menu">
+                     <ul class="footer__list menu">
+                        <li class="menu__item"><a class="nav-link" href="#header">Главная</a></li>
+                        <li class="menu__item"><a class="nav-link" href="#services-title">Услуги</a></li>
+                        <li class="menu__item"><a href="#!">О нас</a></li>
+                        <li class="menu__item"><a href="news.html#news">Новости</a></li>
+                        <li class="menu__item"><a class="nav-link" href="#footer">Контакты</a></li>
+                        <li class="menu__item"><a href="#!">Акции</a></li>
+                     </ul>
+                  </nav>
+                  <nav class="footer__links">
+                     <span class="footer__linksspoler" data-tab="spoiler1">Ссылки 1</span>
+                     <ul class="footer__linkslist menu" id="spoiler1">
+                        <li class="menu__item"><a href="#!">Консультации</a></li>
+                        <li class="menu__item"><a href="#!">Название процедуры</a></li>
+                        <li class="menu__item"><a href="#!">Название другой процедуры</a></li>
+                        <li class="menu__item"><a href="#!">Консультации</a></li>
+                        <li class="menu__item"><a href="#!">Название процедуры</a></li>
+                        <li class="menu__item"><a href="#!">Название другой процедуры</a></li>
+                        <li class="menu__item"><a href="#!">Консультации</a></li>
+                        <li class="menu__item"><a href="#!">Название процедуры</a></li>
+                     </ul>
+                  </nav>
+                  <nav class="footer__links">
+                     <div class="footer__linksspoler" data-tab="spoiler2">Ссылки 2</div>
+                     <ul class="footer__linkslist menu" id="spoiler2">
+                        <li class="menu__item"><a href="#!">Консультации</a></li>
+                        <li class="menu__item"><a href="#!">Название процедуры</a></li>
+                        <li class="menu__item"><a href="#!">Название другой процедуры</a></li>
+                        <li class="menu__item"><a href="#!">Консультации</a></li>
+                        <li class="menu__item"><a href="#!">Название процедуры</a></li>
+                        <li class="menu__item"><a href="#!">Название другой процедуры</a></li>
+                        <li class="menu__item"><a href="#!">Консультации</a></li>
+                        <li class="menu__item"><a href="#!">Название процедуры</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+            <div class="footer__cardspay"><img src="/img/footer/cardspay.png" alt="cards"></div>
+         </div>
+      </div>
+   </footer>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script type="module">
+      import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+   </script>
+   <script src="js/ibg.js"></script>
+   <script src="js/burger.js"></script>
+   <script src="js/js.js"></script>
+   <script src="js/spoiler.js"></script>
+   <script src="js/slider.js"></script>
+   <script src="js/youtube.js"></script>
+   <script src="js/video.js"></script>
+   <script src="js/swiper.js"></script>
+   <script src="js/animation_on_scroll.js"></script>
+   <script src="js/smooth-scrolling.js"></script>
+   <script src="js/fslightbox.js"></script>
+ </body>
+   
+</html>
+
+ 
