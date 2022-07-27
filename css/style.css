@@ -779,7 +779,7 @@ body {
 
 .services {
   color: #5C5956;
-  background: url(../../img/main/services/bg.jpg) center/cover no-repeat;
+  background: url(../img/main/services/bg.jpg) center/cover no-repeat;
   border-radius: 0 0 100em 100em/4em;
   margin: -270px 0px 0px 0px;
   position: relative;
@@ -789,7 +789,7 @@ body {
 }
 @media (max-width: 1199.13px) {
   .services {
-    background: url(../../img/main/services/bg.png) -400px 50px/cover no-repeat;
+    background: url(../img/main/services/bg.png) -400px 50px/cover no-repeat;
   }
 }
 .services .container {
@@ -1018,7 +1018,7 @@ body {
 }
 @media (max-width: 991.98px) {
   .services {
-    background: url(../../img/main/services/bg.png) -250px 50px/cover no-repeat;
+    background: url(../img/main/services/bg.png) -250px 50px/cover no-repeat;
   }
   .services__choice {
     flex: 0 0 70%;
@@ -1069,7 +1069,7 @@ body {
 }
 @media (max-width: 767.98px) {
   .services {
-    background: url(../../img/main/services/bg.jpg) 50% 0/cover no-repeat;
+    background: url(../img/main/services/bg.jpg) 50% 0/cover no-repeat;
     flex-wrap: wrap;
     position: relative;
     margin: -70px 0px 0px 0px;
@@ -1106,7 +1106,7 @@ body {
   }
 }
 .vl {
-  background: url(../../img/main/vl/bg.svg) center/cover no-repeat;
+  background: url(../img/main/vl/bg.svg) center/cover no-repeat;
   margin: -50px 0px 0px 0px;
   padding: 120px 0 50px 0;
   overflow: hidden;
@@ -1522,7 +1522,7 @@ body {
 }
 .beauty__roundbg {
   position: absolute;
-  background: url(/img/main/beauty/sertbg.png) center/cover no-repeat, #f7f7f7;
+  background: url(../img/main/beauty/sertbg.png) center/cover no-repeat, #f7f7f7;
   width: 300vw;
   height: 100vw;
   top: 100%;
@@ -2023,7 +2023,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 10px 10px 100px 10px;
-  background: url(/img/main/certificates/bg.svg) center/cover no-repeat, #FAFAFA;
+  background: url(../img/main/certificates/bg.svg) center/cover no-repeat, #FAFAFA;
   border-radius: 100em 100em/4em;
 }
 .certificates__navigationbutton {
@@ -2115,7 +2115,7 @@ body {
   height: 40px;
   top: 40px;
   right: -18px;
-  background: url(/img/main/beauty/point.png) center/cover no-repeat;
+  background: url(../img/main/beauty/point.png) center/cover no-repeat;
 }
 .certificates__nav {
   display: inline-flex;
@@ -2373,7 +2373,7 @@ body {
 .consultation {
   max-width: 100%;
   position: relative;
-  background: url(../../img/main/consultation/bg.png) center/cover no-repeat;
+  background: url(../img/main/consultation/bg.png) center/cover no-repeat;
   padding: 100px 20px;
   border-radius: 100em 100em/4em;
   margin-top: -4em;
@@ -2441,7 +2441,7 @@ body {
   height: 40px;
   top: -5px;
   left: 0;
-  background: url(/img/main/beauty/point.png) center/cover no-repeat;
+  background: url(../img/main/beauty/point.png) center/cover no-repeat;
 }
 .consultation__button {
   max-width: 360px;
@@ -2498,7 +2498,7 @@ body {
   height: 40px;
   top: -5px;
   left: 50%;
-  background: url(/img/main/beauty/point.png) center/cover no-repeat;
+  background: url(../img/main/beauty/point.png) center/cover no-repeat;
   transform: translate(-50%, 0%) scale(0);
   transition: all 0.5s ease-in-out 0.2s;
 }
@@ -2576,7 +2576,7 @@ body {
   }
 }
 .recommendations {
-  background: url(../../img/main/recommendations/bg.png) center/cover no-repeat;
+  background: url(../img/main/recommendations/bg.png) center/cover no-repeat;
   position: relative;
   padding: 200px 20px 100px 20px;
   margin-top: -100px;
@@ -2836,7 +2836,7 @@ body {
   height: 72px;
   top: -16px;
   left: -15px;
-  background: url(../../img/main/map/point.svg) center/cover no-repeat;
+  background: url(../img/main/map/point.svg) center/cover no-repeat;
 }
 .map__street :active, .map__street :target, .map__street.active {
   background-color: rgb(230, 197, 109);
@@ -3210,7 +3210,7 @@ body {
   left: 0;
   -o-object-fit: cover;
      object-fit: cover;
-  background: url(../../img/main/services/point.png) center/cover no-repeat;
+  background: url(../img/main/services/point.png) center/cover no-repeat;
 }
 .mainservice-content__title {
   font-family: "Beatrix Antiqua";
@@ -3332,12 +3332,12 @@ body {
   top: 0;
   left: 0;
   -webkit-appearance: none;
-  background: url(../../img/services_index/1.png) center/cover no-repeat;
+  background: url(../img/services_index/1.png) center/cover no-repeat;
 }
 .interactive__after::-webkit-slider-thumb {
   -webkit-appearance: none;
   cursor: pointer;
-  background: url(../../img/services_index/mainservices/thumb.png) center/cover no-repeat;
+  background: url(../img/services_index/mainservices/thumb.png) center/cover no-repeat;
   width: 50px;
   height: 500px;
   bottom: 25px;
@@ -3470,7 +3470,7 @@ body {
 }
 
 .form {
-  background: url(../../img/main/recommendations/bg.png) center/cover no-repeat;
+  background: url(../img/main/recommendations/bg.png) center/cover no-repeat;
   overflow: visible;
   z-index: 2;
   position: relative;
@@ -3625,7 +3625,7 @@ body {
 }
 
 .news {
-  background: url(../../img/news/bg.png) center/cover no-repeat;
+  background: url(../img/news/bg.png) center/cover no-repeat;
   padding: 100px 10px;
 }
 @media (max-width: 767.13px) {
@@ -3811,7 +3811,7 @@ body {
 .quiz {
   padding: 90px 10px;
   background-color: #333;
-  background: url(/img/news/bg.png) center/cover no-repeat;
+  background: url(../img/news/bg.png) center/cover no-repeat;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -4155,7 +4155,7 @@ body {
   position: absolute;
   width: 30px;
   height: 30px;
-  background: url(/img/choose-expert/upcooma.png) center/contain no-repeat;
+  background: url(../img/choose-expert/upcooma.png) center/contain no-repeat;
 }
 .choose-expert__tips::before {
   top: 15px;
@@ -4214,7 +4214,7 @@ body {
 }
 
 .thanks {
-  background: url(../../img/main/recommendations/bg.png) center/cover no-repeat;
+  background: url(../img/main/recommendations/bg.png) center/cover no-repeat;
   position: relative;
 }
 .thanks__navigationbutton {
