@@ -1,13 +1,6 @@
 'use strict'
 
-// Обновление при изменении размера окна -----------------------------------------------------------
 
-window.addEventListener('resize', function () { 
-   
-   window.location.reload(); 
-});
-
-// Обновление при изменении размера окна -----------------------------------------------------------
 
 const leftArrow = document.querySelector('.tabs-header__arrows--left');
 const rightArrow = document.querySelector('.tabs-header__arrows--right');
